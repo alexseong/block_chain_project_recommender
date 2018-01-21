@@ -49,7 +49,7 @@ class CodaRecommender(object):
     def predict(self):
         self._predictions = self._model.predict(user_features=self._investor_features, item_features=self._project_features)
 
-    def recommend_projects():
+    def recommend_projects(self):
         var = ""
 
         while(var != 'q' and var != 'Q'):
