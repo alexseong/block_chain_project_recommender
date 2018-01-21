@@ -79,8 +79,8 @@ class CodaRecommender(object):
                     _, non_zero_features = p_f.nonzero()
 
                     for p in non_zero_features:
-                        print("    ", features[p])
-                    print ("")
+                        print "    ", self._features[p]
+                    print ""
             else:
                 print("Please enter a valid investor number or 'q/Q'")
 
